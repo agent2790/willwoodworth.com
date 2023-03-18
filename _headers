@@ -4,4 +4,4 @@
   Referrer-Policy: no-referrer
   Permissions-Policy: document-domain=()
   X-XSS-Protection: 1; mode=block
-  Content-Security-Policy: default-src 'none'; script-src 'unsafe-inline'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'unsafe-inline'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
