@@ -1,5 +1,25 @@
-<html>
-  <body>UTC time: <span id="UTC_za00"></span><br/>
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<meta name="author" content="Will Woodworth">
+<meta name="Description" content="Proudly in MN.">
+<title>Clock</title>
+</head>
+<body>
+
+	
+Time in Mpls: <span id="Minneapolis_z123" style="font-size:36px;color:#FFF;background:#000"></span>
+<script src="//widget.time.is/en.js"></script>
+<script>
+time_is_widget.init({Minneapolis_z123:{template:"TIME<br>DATE<br>SUN", time_format:"12hours:minutesAMPM", date_format:"dayname, monthname dnum, year", sun_format:"Sunrise: srhour:srminute Sunset: sshour:ssminute<br>Day length: dlhoursh dlminutesm", coords:"44.9799700,-93.2638400"}});
+</script>
+	
+	
+	UTC time: <span id="UTC_za00"></span><br/>
 Minneapolis sunrise time: <span id="Minneapolis_z123"></span><br/>
 Tokyo sunrise time: <span id="Tokyo_z444"></span><br/>
 Find the <a href="https://time.is/" id="time_is_link" rel="nofollow"> </a>
