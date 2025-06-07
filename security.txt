@@ -1,0 +1,3 @@
+Contact: mailto:q6mqlqzb@duck.com
+CSAF: https://www.cisa.gov/sites/default/files/csaf/provider-metadata.json
+Expires: 2030-12-31T00:00:00.000Z
